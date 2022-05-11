@@ -1,0 +1,99 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+  	.price-cont{
+  		margin-bottom: 25px;
+  	}
+  	h1 {
+    	font-size: 40px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.second-text-cont, .second-text-cont.first{
+		margin-bottom: 50px;
+	}
+	.review-icon img {
+    	width: 15% !important;
+	}
+	.review-text {
+    	font-size: 14px;
+	}
+	.review-author .name {
+    	font-size: 18px;
+	}
+	.review-author .status {
+    	font-size: 10px;
+	}
+	.six .bright-text h1{
+		font-size: 25px;
+	}
+	.six .main-button a{
+		font-size: 20px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+  	.image-logo img{
+  		width: 30%;
+  	}
+  	h1 {
+    	font-size: 35px;
+	}
+	.second{
+		padding-bottom: 0;
+	}
+	.price-cont{
+		height: 535px;
+	}
+	.review-icon img {
+    	width: 10% !important;
+	}
+	.review-text p br{
+		display: none;
+	}
+	.review-text p{
+		margin-bottom: 0;
+	}
+	.review-icon, .review-text {
+    	margin-bottom: 25px;
+	}
+	.z-in{
+		z-index: 10;
+		margin-bottom: 25px;
+	}
+	.six{
+		padding: 25px 0px;
+		text-align: center;
+	}
+	.six .main-button a{
+		border: 1px solid #ed1d24;
+	}
+	.fifth-image{
+		text-align: center;
+	}
+  
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 576px) {
+	.price-cont {
+    	height: 438px;
+	}
+	.review-cont{
+		text-align: center;
+	}
+	.review-icon{
+		display: flex;
+		justify-content: center;
+	}
+	.bright-text h1 br{
+		display: none;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
