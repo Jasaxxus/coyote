@@ -8,6 +8,27 @@ $('.owl-carousel.car-reviews').owlCarousel({
       	// animateOut: 'fadeOut',
       	dots: true
 	});
+	$("#ru").click(function(){
+        $('.ru_text').addClass('dis-b');
+        $('.en_text').removeClass('dis-b');
+        $('.en_text').addClass('dis-n');
+        $('.lv_text').removeClass('dis-b');
+        $('.lv_text').addClass('dis-n');
+    });
+    $("#en").click(function(){
+        $('.ru_text').removeClass('dis-b');
+        $('.ru_text').addClass('dis-n');
+        $('.en_text').addClass('dis-b');
+        $('.lv_text').removeClass('dis-b');
+        $('.lv_text').addClass('dis-n');
+    });
+    $("#lv").click(function(){
+        $('.ru_text').removeClass('dis-b');
+        $('.ru_text').addClass('dis-n');
+        $('.lv_text').addClass('dis-b');
+        $('.en_text').removeClass('dis-b');
+        $('.en_text').addClass('dis-n');
+    });
 	// Get message after sent
 	// $('#getintouch .p-sbm').click(function(){
  //        $('#get-success').empty();
