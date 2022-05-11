@@ -79,7 +79,7 @@ h1{
 .price-subhead ul, .list-fifth-about{
 	list-style-type: disc;
 }
-.price-button a{
+.price-button p{
 	color: #fff;
 	background-color: #ed1d24;
 	padding: 10px 0px;
